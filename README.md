@@ -7,21 +7,24 @@ Ce type d'exercices pose des problèmes qui ont des contraintes.
 Par exemple dans le fichier `CSP.pl`, vous trouverez l'enoncé et le corrigé d'un problème qu'une entreprise rencontre.  
 Il y'a des employés qui doivent aller en vacances et il y'a des contraintes sur qui ne doit pas partir juste après un autre, qui ne peut pas partir en premier ou dernier etc.  
 
-### Cript_arithmetique
+## Cript_arithmetique
 Vous trouverez l'énoncé et le corrigé dans le fichier `.pl`correspondant.  
 Une petite illustration du problème:  
 <img src="images/arithmetique.png" alt="illustraion criptarithmetique">  
 Testez donc et voyez si les valeurs qui ont été trouvées marchent en faisant le calcul.  
 Vous trouverez un exemple d'exécution avce la reponse du moteur pl
 
-### Triangle de nombres
+## Triangle de nombres
 Vous trouverez également l'énoncé et le corrigé dans le fichier `criptarithmetique.pl`.  
 Il a la même logique que le problème d'au desssus.  
 Petite illustration:
 <img src="images/triangle_nombre.png" alt="illustration triangle de nombres">  
 Là aussi, je vous invite à regarder l'exécution et la reponse du moteur pl puis d'essayer de voir si les valeurs fournies marchent pour resoudre le problème
 
-
+## Problème du zèbre 
+C'est un problème que j'ai trouvé rigolo.  
+On dispose d'une grande base d'informations, et on doit déduire qui est le propriétaire du zèbre et qui boit du vin.  
+Je vous laisse regarder le fichier `.pl` correspondant.
 ## Installation de Swi-Prolog sur linux  
 Pour installer prolog sous linux et pouvoir exécuter le code et voir la résolution , il faut taper:  
 ```bash
