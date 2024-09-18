@@ -30,7 +30,7 @@ Si tout se passe bien, l'interface vous affichera `true`. Cela signifie que le f
 ### Execution
 Cette partie consistera juste à appeler les fonctions pour voir ce qu'elles donnent comme resulat.  
 Dans chaque fichier, vous trouverez des explications et un exemple de comment vous pouvez appeler la fonction pour voir son exécution.   
-Par exemple dans le fichier `CSP.pl` il y'a des explicatioons de comment exécuter et ce qu'il vous repondra.
+Par exemple dans le fichier `CSP.pl` il y'a des explications sur comment exécuter et ce qu'il vous repondra.
 
 <div style="color:blue; font-size:1.2em;"> Amusez vous et trouver d'autres problèmes que vous pourriez modéliser le même manière et essayez de les resoudre. <br>
 <div style="color:white"> Je vous propose lui : 
