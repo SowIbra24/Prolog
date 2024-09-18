@@ -1,10 +1,26 @@
 # Prolog
-Un repo qui contient la résolution de quelques problèmes logiques en utilisant le langage de programmation prolog
+Un repo qui contient la résolution de quelques problèmes logiques en utilisant le langage de programmation prolog et de la reccursion.  
+Les sujets ont été faits par moi , quelques fois avec l'aide de mon prefesseur. 
 
 ### Exercices de satisfactions de contraintes (CSP)
 Ce type d'exercices pose des problèmes qui ont des contraintes.  
 Par exemple dans le fichier `CSP.pl`, vous trouverez l'enoncé et le corrigé d'un problème qu'une entreprise rencontre.  
 Il y'a des employés qui doivent aller en vacances et il y'a des contraintes sur qui ne doit pas partir juste après un autre, qui ne peut pas partir en premier ou dernier etc.  
+
+### Cript_arithmetique
+Vous trouverez l'énoncé et le corrigé dans le fichier `.pl`correspondant.  
+Une petite illustration du problème:  
+<img src="images/arithmetique.png" alt="illustraion criptarithmetique">  
+Testez donc et voyez si les valeurs qui ont été trouvées marchent en faisant le calcul.  
+Vous trouverez un exemple d'exécution avce la reponse du moteur pl
+
+### Triangle de nombres
+Vous trouverez également l'énoncé et le corrigé dans le fichier `criptarithmetique.pl`.  
+Il a la même logique que le problème d'au desssus.  
+Petite illustration:
+<img src="images/triangle_nombre.png" alt="illustration triangle de nombres">  
+Là aussi, je vous invite à regarder l'exécution et la reponse du moteur pl puis d'essayer de voir si les valeurs fournies marchent pour resoudre le problème
+
 
 ## Installation de Swi-Prolog sur linux  
 Pour installer prolog sous linux et pouvoir exécuter le code et voir la résolution , il faut taper:  
@@ -33,14 +49,17 @@ Dans chaque fichier, vous trouverez des explications et un exemple de comment vo
 Par exemple dans le fichier `CSP.pl` il y'a des explications sur comment exécuter et ce qu'il vous repondra.
 
 
-<div style="color:blue; font-size:1.2em;"> Amusez vous et trouver d'autres problèmes que vous pourriez modéliser de la même manière et essayez de les resoudre. <br>
-    <div style="color:white"> Je vous propose celui ci : 
-        5 personnes (Marie, Lucas, Abdel, Mamadou, Evelyn) habitent dans un immeuble 
-            de 5 étages (un appartement par étage).
-        Marie n'habite pas au 4e, et Lucas pas au RDC. Abdel n'habite ni au 4e ni au RDC 
-            et n'habite pas un étage adjacent à celui d'Evelyn ni celui de Lucas. Mamadou habite 
-            un étage plus haut que Abdel.
-        Qui habite à quel étage ? </div>
- </div>
+### Amusez vous et trouver d'autres problèmes que vous pourriez modéliser de la même manière et essayez de les resoudre. 
+
+#### Je vous propose celui ci : 
+
+    5 personnes (Marie, Lucas, Abdel, Mamadou, Evelyn) habitent dans un immeuble de 5 étages (un appartement par étage).  
+
+    Marie n'habite pas au 4e, et Lucas pas au RDC.  
+    Abdel n'habite ni au 4e ni au RDC et n'habite pas un étage adjacent à celui d'Evelyn ni celui de Lucas.  
+    Mamadou habite un étage plus haut que Abdel.
+    Qui habite à quel étage ? 
+
+
 
 
