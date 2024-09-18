@@ -32,7 +32,7 @@ Cette partie consistera juste à appeler les fonctions pour voir ce qu'elles don
 Dans chaque fichier, vous trouverez des explications et un exemple de comment vous pouvez appeler la fonction pour voir son exécution.   
 Par exemple dans le fichier `CSP.pl` il y'a des explications sur comment exécuter et ce qu'il vous repondra.
 
-```html
+
 <div style="color:blue; font-size:1.2em;"> Amusez vous et trouver d'autres problèmes que vous pourriez modéliser le même manière et essayez de les resoudre. <br>
     <div style="color:white"> Je vous propose lui : 
         5 personnes (Marie, Lucas, Abdel, Mamadou, Evelyn) habitent dans un immeuble 
