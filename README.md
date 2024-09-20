@@ -2,9 +2,12 @@
 Un repo qui contient la résolution de quelques problèmes logiques en utilisant le langage de programmation prolog et de la reccursion.  
 Les sujets ont été faits par moi , quelques fois avec l'aide de mon prefesseur. 
 
+### Interrogation du moteur pl  
+Vous trouverez dans le fichier `src/interro_base.pl` un fichier dans lequel il y'a une petite base de données que vous pourrez interroger.  
+Il y'a aussi un petit exo rigolo sur qui vole qui ;)
 ### Exercices de satisfactions de contraintes (CSP)
 Ce type d'exercices pose des problèmes qui ont des contraintes.  
-Par exemple dans le fichier `CSP.pl`, vous trouverez l'enoncé et le corrigé d'un problème qu'une entreprise rencontre.  
+Par exemple dans le fichier `src/CSP.pl`, vous trouverez l'enoncé et le corrigé d'un problème qu'une entreprise rencontre.  
 Il y'a des employés qui doivent aller en vacances et il y'a des contraintes sur qui ne doit pas partir juste après un autre, qui ne peut pas partir en premier ou dernier etc.  
 
 ## Cript_arithmetique
@@ -15,7 +18,7 @@ Testez donc et voyez si les valeurs qui ont été trouvées marchent en faisant 
 Vous trouverez un exemple d'exécution avce la reponse du moteur pl
 
 ## Triangle de nombres
-Vous trouverez également l'énoncé et le corrigé dans le fichier `criptarithmetique.pl`.  
+Vous trouverez également l'énoncé et le corrigé dans le fichier `src/criptarithmetique.pl`.  
 Il a la même logique que le problème d'au desssus.  
 Petite illustration:
 <img src="images/triangle_nombre.png" alt="illustration triangle de nombres">  
