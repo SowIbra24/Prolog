@@ -20,7 +20,7 @@ Vous trouverez un exemple d'exécution avce la reponse du moteur pl
 ## Triangle de nombres
 Vous trouverez également l'énoncé et le corrigé dans le fichier `src/criptarithmetique.pl`.  
 Il a la même logique que le problème d'au desssus.  
-Petite illustration:
+Petite illustration:  
 <img src="images/triangle_nombre.png" alt="illustration triangle de nombres">  
 Là aussi, je vous invite à regarder l'exécution et la reponse du moteur pl puis d'essayer de voir si les valeurs fournies marchent pour resoudre le problème
 
@@ -28,6 +28,16 @@ Là aussi, je vous invite à regarder l'exécution et la reponse du moteur pl pu
 C'est un problème que j'ai trouvé rigolo.  
 On dispose d'une grande base d'informations, et on doit déduire qui est le propriétaire du zèbre et qui boit du vin.  
 Je vous laisse regarder le fichier `.pl` correspondant.
+
+## Labyrinte  
+Un petit problème de recherche dans un graphe d'états.  
+On à un labyrinte en photo , on le modelise et on essaie de partir d'un endroit à un autre.  
+Vous trouverez le code dans le fichier `pl` correspondant.  
+N'hésitez pas à imaginer votre labyrinte et varier les paramètres pour avoir la solution à votre labyrinte.  
+  
+
+<img src="images/labyrinte.png" alt="une photo du labyrinte">  
+
 ## Installation de Swi-Prolog sur linux  
 Pour installer prolog sous linux et pouvoir exécuter le code et voir la résolution , il faut taper:  
 ```bash
