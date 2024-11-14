@@ -1,40 +1,39 @@
 # Prolog
-Un repo qui contient la résolution de quelques problèmes logiques en utilisant le langage de programmation prolog et de la reccursion.  
-Les sujets ont été faits par moi , quelques fois avec l'aide de mon prefesseur. 
+Un repo qui contient la résolution de quelques problèmes logiques en utilisant le langage de programmation Prolog et de la récursion.  
+Les sujets ont été rédigés par moi, parfois avec l'aide de mon professeur.
 
 ### Interrogation du moteur pl  
-Vous trouverez dans le fichier `src/interro_base.pl` un fichier dans lequel il y'a une petite base de données que vous pourrez interroger.  
-Il y'a aussi un petit exo rigolo sur qui vole qui ;)
+Dans le fichier `src/interro_base.pl`, vous trouverez une petite base de données que vous pouvez interroger.  
+Il y a également un petit exercice amusant sur "qui vole quoi ?" ;)
 ### Exercices de satisfactions de contraintes (CSP)
-Ce type d'exercices pose des problèmes qui ont des contraintes.  
-Par exemple dans le fichier `src/CSP.pl`, vous trouverez l'enoncé et le corrigé d'un problème qu'une entreprise rencontre.  
-Il y'a des employés qui doivent aller en vacances et il y'a des contraintes sur qui ne doit pas partir juste après un autre, qui ne peut pas partir en premier ou dernier etc.  
+Ce type d'exercice présente des problèmes soumis à des contraintes.  
+Par exemple, dans le fichier `src/CSP.pl`, vous trouverez l'énoncé et la solution d'un problème rencontré par une entreprise.  
+Il s'agit de planifier les vacances des employés en respectant des contraintes telles que : qui ne doit pas partir juste après qui, qui ne peut pas partir en premier ou en dernier, etc.
 
 ## Cript_arithmetique
-Vous trouverez l'énoncé et le corrigé dans le fichier `.pl`correspondant.  
-Une petite illustration du problème:  
+Vous trouverez l'énoncé et la solution dans le fichier .pl correspondant.  
+Une petite illustration du problème :  
 <img src="images/arithmetique.png" alt="illustraion criptarithmetique">  
-Testez donc et voyez si les valeurs qui ont été trouvées marchent en faisant le calcul.  
-Vous trouverez un exemple d'exécution avce la reponse du moteur pl
+Testez et vérifiez si les valeurs trouvées sont correctes en effectuant le calcul.  
+Vous trouverez un exemple d'exécution avec la réponse du moteur Prolog.
 
 ## Triangle de nombres
-Vous trouverez également l'énoncé et le corrigé dans le fichier `src/criptarithmetique.pl`.  
-Il a la même logique que le problème d'au desssus.  
-Petite illustration:  
+Vous trouverez également l'énoncé et la solution dans le fichier `src/criptarithmetique.pl`.  
+Ce fichier suit la même logique que le problème décrit ci-dessus.  
+Une petite illustration :  
 <img src="images/triangle_nombre.png" alt="illustration triangle de nombres">  
-Là aussi, je vous invite à regarder l'exécution et la reponse du moteur pl puis d'essayer de voir si les valeurs fournies marchent pour resoudre le problème
+Là aussi, je vous invite à examiner l'exécution et la réponse du moteur Prolog, puis à vérifier si les valeurs fournies permettent de résoudre le problème.
 
 ## Problème du zèbre 
-C'est un problème que j'ai trouvé rigolo.  
-On dispose d'une grande base d'informations, et on doit déduire qui est le propriétaire du zèbre et qui boit du vin.  
-Je vous laisse regarder le fichier `.pl` correspondant.
+J'ai trouvé ce problème assez amusant.
+Il s'agit de déduire, à partir d'une grande base d'informations, qui est le propriétaire du zèbre et qui boit du vin.  
+Je vous invite à consulter le fichier `.pl` correspondant.
 
 ## Labyrinte  
 Un petit problème de recherche dans un graphe d'états.  
-On à un labyrinte en photo , on le modelise et on essaie de partir d'un endroit à un autre.  
-Vous trouverez le code dans le fichier `pl` correspondant.  
-N'hésitez pas à imaginer votre labyrinte et varier les paramètres pour avoir la solution à votre labyrinte.  
-  
+Nous avons un labyrinthe en image : on le modélise, puis on essaie de trouver un chemin d'un point à un autre.  
+Vous trouverez le code dans le fichier `.pl` correspondant.  
+N'hésitez pas à imaginer votre propre labyrinthe et à varier les paramètres pour obtenir la solution.  
 
 <img src="images/labyrinte.png" alt="une photo du labyrinte">  
 
