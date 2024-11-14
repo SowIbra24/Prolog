@@ -13,7 +13,9 @@ Il s'agit de planifier les vacances des employés en respectant des contraintes 
 ## Cript_arithmetique
 Vous trouverez l'énoncé et la solution dans le fichier .pl correspondant.  
 Une petite illustration du problème :  
+  
 <img src="images/arithmetique.png" alt="illustraion criptarithmetique">  
+  
 Testez et vérifiez si les valeurs trouvées sont correctes en effectuant le calcul.  
 Vous trouverez un exemple d'exécution avec la réponse du moteur Prolog.
 
@@ -21,7 +23,9 @@ Vous trouverez un exemple d'exécution avec la réponse du moteur Prolog.
 Vous trouverez également l'énoncé et la solution dans le fichier `src/criptarithmetique.pl`.  
 Ce fichier suit la même logique que le problème décrit ci-dessus.  
 Une petite illustration :  
+  
 <img src="images/triangle_nombre.png" alt="illustration triangle de nombres">  
+  
 Là aussi, je vous invite à examiner l'exécution et la réponse du moteur Prolog, puis à vérifier si les valeurs fournies permettent de résoudre le problème.
 
 ## Problème du zèbre 
@@ -34,7 +38,7 @@ Un petit problème de recherche dans un graphe d'états.
 Nous avons un labyrinthe en image : on le modélise, puis on essaie de trouver un chemin d'un point à un autre.  
 Vous trouverez le code dans le fichier `.pl` correspondant.  
 N'hésitez pas à imaginer votre propre labyrinthe et à varier les paramètres pour obtenir la solution.  
-
+  
 <img src="images/labyrinte.png" alt="une photo du labyrinte">  
 
 ## Installation de Swi-Prolog sur linux  
