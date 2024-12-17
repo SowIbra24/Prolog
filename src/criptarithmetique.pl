@@ -1,4 +1,4 @@
-/* Pour les 2 problemes, il y'a des illustrations en image dans le readme*/
+/* Pour les 2 problemes, il y'a des illustrations en image dans le readme */
 
 /* +++++++++++++++ Criptarithmetique ++++++++++++++++ */
 
@@ -12,6 +12,7 @@ hors_de(X,[Y|L]):- X\==Y, hors_de(X,L).
 entre Xmin et Xmax qui n’est pas dans la liste L. C’est-à-dire qu’en demandant
 toutes les solutions au prédicat quand X est inconnu, toutes les valeurs sont
 énumérées. */
+
 valeur(X,Xmin,_,L):- X is Xmin, hors_de(X,L).
 valeur(X,Xmin,Xmax,L):- Xmin1 is Xmin+1, Xmin1 =< Xmax, valeur(X,Xmin1,Xmax,L).
 
@@ -61,14 +62,14 @@ trente([V,I,N,G,T,C,Q,R,E]) :-
     H = 0,
     I = 7 ;
     false.
-    le ";" pour demander une autre reponse 
+    le ";" est pour demander une autre solution au moteur prolog
     Et vu que c'est des variable resultats en entrée (majuscules), le resultat est calculé
-    et mis dans les variables 
+    et mis dans les variables (unification)
 */
 
 /* --------------- Triangle de nombres ---------------- */
 /* 
-    On veut placer les nombres de 1 à 6 en triangle, sur les sommets et sur les milieux des segments, en
+    On veut placer les chiffres de 1 à 6 sur un triangle. Ils seront placés sur les sommets et au milieu des segments, en
     utilisant un nombre une fois seulement, de façon à ce que la somme des trois nombres utilisés soit
     la même pour les trois cotés du triangle.
 
@@ -82,8 +83,8 @@ permute([],[]).
 permute(L,[X|L3]):- member(X,L), delete(L,X,L2), permute(L2,L3).
 
 /* 
-    nombre_triangle prend une liste des inconnues à placer sur le triangle
-    et donne chacun des nombres
+    nombre_triangle prend une liste d'inconnues à placer sur le triangle
+    et donne en resultat chacun des nombres
 */
 nombre_triangle([N1,N2,N3,N4,N5,N6]) :-
                 permute([1,2,3,4,5,6],[N1,N2,N3,N4,N5,N6]),
