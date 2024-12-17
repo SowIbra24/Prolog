@@ -14,7 +14,7 @@ Les contraintes sont les suivantes :
 */
 
 /* 
-    Le predicat adjacent(X1,X2), prend X1 et X2 sont 2 données
+    Le predicat adjacent(X1,X2), prend X1 et X2 qui sont 2 données
     Le predicat est vrai si la valeur absolue de leur difference est differente de 1
     Cela permet notament pour 2 personnes ne peuvent pas partir l'un après l'autre
 */
@@ -53,6 +53,6 @@ solution(S):-
     S = [[1, olivier], [2, antoine], [3, michel], [4, robert], [5, naomie]] ;
     false.
 
-    Notez que le ";" permet de lui demander une autre solution du probleme, il va backtracker et 
+    Notez que le ";" permet de demander au moteur prolog une autre solution du probleme, il va backtracker et 
     si il ne trouve pas d'autres solutions, Il vous repondra : false. 
 */
