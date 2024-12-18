@@ -18,7 +18,7 @@ sont_lies(A,B):- couloir(B,A).
   on ne veut pas passer (ou passer de nouveau). Au minimum, cette liste doit avoir l'endroit d'où on veut partir, pour éviter les boucles.
 
   
-  le ! c'est pour couper la sortie (on ne repart pas de la sortie pour chercher la sortie sortie.
+  le ! c'est pour couper la sortie (on ne repart pas de la sortie pour chercher la sortie sortie).
   Si 2 endroits sont liés , je n'ai plus besion de backtracker
 */
 
