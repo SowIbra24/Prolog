@@ -1,7 +1,7 @@
 /* 
     Base de donnée pour faire un arbre généalogique
-    Les faits sont par exemple : homme(albert). veut dire que albert est un homme.
-    mere(christiane,simone). veut dire christiane est la mère de simone
+    Les faits sont par exemple : homme(albert). Cela veut dire qu'albert est un homme.
+    mere(christiane,simone). veut dire que christiane est la mère de simone
 
 */
 
@@ -29,11 +29,11 @@ mere(simone,benoit).
 mere(marie,bertrand).
 mere(marie,sophie).
 
-/* est parent si soit pere, soit mere */
+/* est parent (soit pere, soit mere) */
   parent(X,Y):- pere(X,Y).
   parent(X,Y):- mere(X,Y).
 
-/* fils(X,Y), est fils si Y est son parent et si X est un homme */
+/* fils(X,Y), X est fils de Y si X est un homme et si Y est son parent */
   fils(X,Y):- parent(Y,X), homme(X).
 
 /* pareil pour fille sauf que X femme */
@@ -103,8 +103,7 @@ voler(X,Y):- voleur(X), aime(X,Y).
   ?- voler(X,Y).
   X = pierre,
   Y = marie ;
-  X = qui vole
-  Y = qui
+  
   Donc pierre vole marie
 
 */
